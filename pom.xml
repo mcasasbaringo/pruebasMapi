@@ -47,7 +47,7 @@
                 <configuration>
                 <failOnMissingWebXml>false</failOnMissingWebXml>
             </configuration>
-           <!--  <executions>
+             <executions>
                 <execution>
                     <id>prepare-war</id>
                     <phase>prepare-package</phase>
@@ -57,7 +57,7 @@
                             <manifest>
                                 <addClasspath>true</addClasspath>
                                 <classpathPrefix />
-                            </manifest> -->
+                            </manifest> 
                          <!--    <manifestEntries>
                                 <Implementation-Build>${build.number}</Implementation-Build>
                                 <Implementation-Title>${project.name}</Implementation-Title>
@@ -65,7 +65,7 @@
                                 <Built-OS>${os.name}</Built-OS>
                                 <Build-Date>${build.date}</Build-Date>
                             </manifestEntries> -->
-                 <!--        </archive>
+                         </archive>
                         <webResources>
                             <resource>
                                 this is relative to the pom.xml directory
@@ -74,7 +74,7 @@
                         </webResources>
                     </configuration>
                 </execution>
-            </executions> -->
+            </executions> 
             </plugin>
 		<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
